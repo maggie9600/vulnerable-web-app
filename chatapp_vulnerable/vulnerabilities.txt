@@ -28,3 +28,7 @@ passwords.
 PHP injection:
 The feedback page of the web app is both vulnerable to stored XSS as well as PHP injection.
 This is mainly due to the method of getting input with a validation check.
+
+Security misconfiguration (Leaving configuration page enabled):
+Page with souce codes of the web app was left accessible to public and let to the rise of security
+misconfiguration vulnerability.
