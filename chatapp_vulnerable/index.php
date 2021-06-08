@@ -150,7 +150,7 @@ if(isset($_POST['login']))
     </div>
 <center>
 <a href="http://127.0.0.1:8888/chatapp/ping.php?url=">Click here to ping</a> |
-<a href="http://127.0.0.1:8888/chatapp/feedback.php?url=feedback">User Feedback</a>
+<a href="http://127.0.0.1:8888/chatapp/feedback.php">User Feedback</a>
 </center>
 </body>
 
