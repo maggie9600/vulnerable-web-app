@@ -1,0 +1,30 @@
+SQL injection:
+Forgot password page is vulnerable to SQL injection attacks. Input field is not 
+properly sanitized and this leads to blind SQL injection vulnerability.
+
+Reflected XSS:
+Sign up page is vulnerable to reflected XSS. This is also due to unsanitized input fields
+and this page has more than 1 input fields, so each one is vulnerable to multiple 
+vulnerabilities.
+
+Command injection:
+Ping page is vulnerable to command injection vulnerability, this page is added as a new
+feature to the web app. Command injection is caused due to getting unnecessary characters
+as well as more characters than needed for ping command.
+
+Open URL redirection:
+Ping page is also vulnerable to open URL redirection vulnerability, which is due to a lack 
+of security to PHP header.
+
+Stored XSS:
+This vulnerability can be found on the feedback page which is a new feature of the web app.
+This vulnerability is due to getting inputs without converting HTML special characters
+
+IDOR:
+The reset password page is vulnerable to IDOR vulnerability. IDOR was found in the reset password
+page because of no additional verification method and accessing the same table to reset
+passwords.
+
+PHP injection:
+The feedback page of the web app is both vulnerable to stored XSS as well as PHP injection.
+This is mainly due to the method of getting input with a validation check.
